@@ -48,13 +48,13 @@ metadata:
     vendor: Red Hat, Inc.
     version: "8.1"
   labels:
-    image.opencontainers.org/title: modresorts-v1
+    image.opencontainers.org/title: modresorts10war
     stack.appsody.dev/id: java-openliberty
     stack.appsody.dev/version: 0.2.18
-  name: modresorts-v1
+  name: modresorts10war
   namespace: kabanero-samples
 spec:
-  applicationImage: dev.local/modresorts-v1
+  applicationImage: dev.local/modresorts10war
   createKnativeService: false
   expose: true
   livenessProbe:
